@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	background-color: #eceef1;
+}
+
+.header__top {
+	height: 60px;
+	padding: 10px 30px 10px 30px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header__top__text {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	height: 36px;
+	font-weight: 400;
+}
+
+.header__top__text > p {
+	margin: 0;
+	margin-right: 15px;
+}
+
+.signin-btn {
+	height: 34px;
+	width: 109px;
+	padding: 0 20px;
+	color: white;
+	background-color: rgb(0, 119, 197);
+	border-radius: 4px;
+	border: 1px solid black;
+}
+
+.signin-btn:hover {
+	cursor: pointer;
+}
+
+.header__bottom {
+	width: auto;
+	height: 35px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.header__logo {
+	background-image: url("https://captain-usopp.github.io/sign-up-form/images/ecosystem_logos_new@2x-9448e6be.png");
+	background-size: 562px 83px;
+	box-sizing: border-box;
+	width: 118px;
+	height: 35px;
+}
+
+.logo {
+	height: 42px;
+}
+
+main {
+	height: 782px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	width: 380px;
+	height: 80%;
+	background-color: white;
+	padding: 30px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+fieldset {
+	border: none;
+}
+
+input {
+	width: 100%;
+	height: 34px;
+}
+
+p {
+	margin: 0;
+}
+
+.account-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 50%;
+}
+
+.terms {
+	height: 59px;
+	padding: 20px 0;
+}
+
+footer {
+	background-color: orange;
+	height: 61px;
+	padding: 20px;
+}
+
+label {
+	display: block;
+}
+
+.submit-btn {
+	height: 34px;
+	padding: 0 20px;
+	color: white;
+	background-color: rgb(0, 119, 197);
+	border-radius: 4px;
+	border: 1px solid black;
+}
